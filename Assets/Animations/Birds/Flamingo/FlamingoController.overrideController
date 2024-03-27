@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FlamingoController
+  m_Controller: {fileID: 9100000, guid: 198d6a7c23bdd5e4db7b0f6540d52d2c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ab727d402c4a9d641b4a85102e73c7b7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d6da766ad80ac4b48a49780f8b673125, type: 2}

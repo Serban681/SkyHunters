@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8702587315791160896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8702587315791160897}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8702587315791160897
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702587315791160896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8702587316556713217}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8702587316556713216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8702587316556713217}
+  - component: {fileID: 8702587316556713222}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8702587316556713217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702587316556713216}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8702587315791160897}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8702587316556713222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702587316556713216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9428860f750fde249b2c0ccc8cc9edeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ww1fighterPlanes:
+  - {fileID: 2502430372906585500, guid: a3b3d8ab5bee2034883c1baee590fb8d, type: 3}
+  - {fileID: 3200098476659884056, guid: e420ecb26a42899498167431d5ee39d5, type: 3}
+  - {fileID: 9214664236238561518, guid: b5e5e0302b31d5d4da7c79bc2ba487c9, type: 3}
+  ww1attackPlanes:
+  - {fileID: 8394206061147593150, guid: a43be632ac785a34b98e95680d65c178, type: 3}
+  ww1lightBombers:
+  - {fileID: 5638697812755947234, guid: 1f108876f5578564b959ab69054d523c, type: 3}
+  ww1heavyBombers:
+  - {fileID: 2265594983819274890, guid: db336fff586a3e1418721279da0e90cf, type: 3}
+  ww1Players:
+  - {fileID: 6007517130304610675, guid: 63abace27fe488f478683c3076b5e22d, type: 3}
+  - {fileID: 1102244198041467907, guid: 7789afe81088c024fbefe85cb8181b28, type: 3}
+  - {fileID: 4186191313613246322, guid: 603fffc847b76704a8c25e727ad5f559, type: 3}
+  - {fileID: 3682486000535255099, guid: 7526f66762511ad428dcce27d92360c4, type: 3}
+  - {fileID: 8405109339884701538, guid: f1ed19d7fdee703408982c4b08dc916a, type: 3}
+  - {fileID: 5049368915610143889, guid: 14da7dfd2186ddb44b7387a288e095f2, type: 3}
+  - {fileID: 8219976829240478940, guid: 89edf3af635e23049bef9ee1fbeb23a4, type: 3}
+  ww2fighterPlanes:
+  - {fileID: 5286749248092749307, guid: 2ef601dae6be48f45a2a6cb0afc35dff, type: 3}
+  - {fileID: 4637619191795856037, guid: 9731aa938377cbc4d806c7629ee8997e, type: 3}
+  - {fileID: 4221857547692001434, guid: 196d1c3f5ae0f8c4c9cea3391c494df9, type: 3}
+  ww2attackPlanes:
+  - {fileID: 8834936393029629598, guid: 060efc3b94960f142a338d4e146adfd6, type: 3}
+  ww2lightBombers:
+  - {fileID: 1203842905142598731, guid: 386837b842c2ef04697a0b937aad9ddc, type: 3}
+  ww2heavyBombers:
+  - {fileID: 1304731681519445469, guid: d9cd6103797b4f046b8541a0e9eec16a, type: 3}
+  ww2Players:
+  - {fileID: 135232117570280112, guid: da7355a2ef9987a49a0ff208948fd0a3, type: 3}
+  - {fileID: 2458584394890715232, guid: c05e35e338c2a9044a231e07dccc8768, type: 3}
+  - {fileID: 1486918433898967675, guid: 62330854f86208343a0021f453723c49, type: 3}
+  - {fileID: 8590936014502559263, guid: e43b470f3d2241847a807bc09f158639, type: 3}
+  - {fileID: 779255756459545780, guid: 3713b3e6ec5bb054bbb67210dbd0d99c, type: 3}
+  - {fileID: 6766705185470840565, guid: d73b6b5d01b7c7f49a79d669210c07a4, type: 3}
+  - {fileID: 4174209597565496092, guid: 867623ff6accbe04bb2922e4d7c99a02, type: 3}
+  numberOfBombers: 0
+  curEnemies: 0
+  distanceFromPlayer: 150
+  bird: {fileID: 1602593499774931179, guid: 897eb8c68af800d44a6e613cb4860097, type: 3}
+  flamingo: {fileID: 8455023817080207692, guid: ac14fff0e442b7a49be61f2bba9da5ac,
+    type: 3}
+  timeBetweenBirdSpawns: 3
+  maxNumberOfBirds: 8
+  currentNumberOfBirds: 0
+  coin: {fileID: 8980529380889345157, guid: 3e1260de3265ebe40b58efaf315aa1c8, type: 3}
+  curCoins: 0
+  repairKit: {fileID: 596318183370486373, guid: 91032c1405ad1b7479380ec13c28f079,
+    type: 3}
+  curRepairKits: 0

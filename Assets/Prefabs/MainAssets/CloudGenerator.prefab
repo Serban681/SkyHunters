@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &997071195
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 997071196}
+  - component: {fileID: 997071197}
+  - component: {fileID: 997071198}
+  m_Layer: 0
+  m_Name: Stars
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &997071196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997071195}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3695163636625530508}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &997071197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997071195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b14bdfc5bca724596418277907dd03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parralaxEffect: 0.9
+  cam: {fileID: 0}
+--- !u!114 &997071198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997071195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca972889769408419abf7cb3b5806b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  star: {fileID: 7131056487926978210, guid: 334c019cc52cb504583d6f08a3140ee2, type: 3}
+--- !u!1 &1980599383817745941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5357008781324800967}
+  - component: {fileID: 1426515704}
+  m_Layer: 0
+  m_Name: Clouds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5357008781324800967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980599383817745941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3695163636625530508}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1426515704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980599383817745941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b14bdfc5bca724596418277907dd03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parralaxEffect: 0.1
+  cam: {fileID: 0}
+--- !u!1 &3695163636625530506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3695163636625530508}
+  - component: {fileID: 3695163636625530509}
+  m_Layer: 0
+  m_Name: CloudGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3695163636625530508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3695163636625530506}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.033305667}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5357008781324800967}
+  - {fileID: 7711838711996610373}
+  - {fileID: 5676225098837422035}
+  - {fileID: 997071196}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3695163636625530509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3695163636625530506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6a68b84e19b4364894b0a88caf63b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  background: {fileID: 0}
+  cloudArrangements:
+  - name: Pink Clouds
+    clouds:
+    - {fileID: 6984773802913346964, guid: d00c516f34e468a449f20c997af9f87b, type: 3}
+    - {fileID: 3776391680860759926, guid: 71d34ce2ce81a8f41bac8ae5554cb1b5, type: 3}
+    - {fileID: 7903199068036295770, guid: f00f281a956e12849a6c84b88e3e140c, type: 3}
+    - {fileID: 2582198384519773303, guid: eda1db0ac2b5e9c4c8c754c9273020cd, type: 3}
+    - {fileID: 2386355503856272148, guid: 38c18ed01f978c74fb7272735f3847b2, type: 3}
+    backClouds:
+    - {fileID: 5640184196872722695, guid: d078af948cd6ad440bb5fd476d962823, type: 3}
+    - {fileID: 1356145722910076210, guid: b3ce42d6e131c5d48b098723e8b079ca, type: 3}
+    farBackClouds:
+    - {fileID: 1608495170939489886, guid: 71cc27ea9c285544e8c0bc5a17fc601a, type: 3}
+    - {fileID: 8297551141070155004, guid: 5f9a42e0eb50cbf4bbca0936714aaa7c, type: 3}
+    bgColor: {r: 0.6313726, g: 0.5803922, b: 1, a: 0}
+  - name: 'Clear Sky Clouds '
+    clouds:
+    - {fileID: 4843281580686959954, guid: b11696c2aea0c9f4aab1da32be386a9e, type: 3}
+    - {fileID: 3833066742623571949, guid: 7f2d6e00d12b0614d894154ab1e4957d, type: 3}
+    - {fileID: 4278938437135417363, guid: 5300f328ef23fd948ac1200dba8fb782, type: 3}
+    - {fileID: 3663034307749340425, guid: a8cd90cc8ae57f84d8720fda57d04a36, type: 3}
+    - {fileID: 4146800571738025708, guid: c608d8ed0dcc1334eabccf660661d023, type: 3}
+    backClouds:
+    - {fileID: 223115691568777564, guid: 950d58de76d62b3489cfa0b397e50384, type: 3}
+    - {fileID: 5802649920579582184, guid: 5f331d0cee52e7d4abbb178cac84a4fe, type: 3}
+    farBackClouds:
+    - {fileID: 730160561351103534, guid: d18b2cc75167554449c1062cbec776e2, type: 3}
+    - {fileID: 1563047383217616107, guid: 84d3dc9b75130da4bb4e37bf7009b683, type: 3}
+    bgColor: {r: 0.627451, g: 0.7764706, b: 1, a: 0}
+  - name: Night Clouds
+    clouds:
+    - {fileID: 6666422503241379296, guid: d15120074dd4c2b498cff28cb9f7bd7a, type: 3}
+    - {fileID: 2176102982024749317, guid: 80e506324226b6b42a796f7d0b959607, type: 3}
+    - {fileID: 3774586965583625269, guid: 871c44792ac56604ea5b74c8e6c89724, type: 3}
+    - {fileID: 6329345774992010939, guid: e146152d658ddff4f82821fdd3efda24, type: 3}
+    - {fileID: 6760008328764846629, guid: 9292df0a42761d549a215796499d2db9, type: 3}
+    backClouds:
+    - {fileID: 9215182512108035192, guid: b9fe09d168783e746a5fdcecc8203384, type: 3}
+    - {fileID: 5145199298076232349, guid: 0e667518c7e648d4f920dd1258780650, type: 3}
+    farBackClouds:
+    - {fileID: 3918011302305621945, guid: d90e987e504f418458c2bd588c57f911, type: 3}
+    - {fileID: 674121202680606666, guid: 8eadcee2f54feef468876676e8d7d47e, type: 3}
+    bgColor: {r: 0.043137256, g: 0.06666667, b: 0.105882354, a: 0}
+  - name: Grey Clouds
+    clouds:
+    - {fileID: 6417389018735961761, guid: 021f93ae56e5fa04ea498a7fda52a8e2, type: 3}
+    - {fileID: 5823630979361195295, guid: 37a35dece8eae4943beb796cd752f6a9, type: 3}
+    - {fileID: 942735810335905507, guid: cc0388ad673418a4d8f63154d074355d, type: 3}
+    - {fileID: 1575572142682963578, guid: 0c67b07f0362e3a4594b0494ce31a69f, type: 3}
+    - {fileID: 6952317075523665922, guid: b8e8adbc06b71a246bf918504d269baf, type: 3}
+    backClouds:
+    - {fileID: 5057256058177997787, guid: 2223b1a1421ddaa4aabcef147caa2ab5, type: 3}
+    - {fileID: 3246646547587679010, guid: 818d165f8bb39ac4196034ecc304d7f4, type: 3}
+    farBackClouds:
+    - {fileID: 8570107550302581762, guid: 4eccb1ae708128b488c58eae87b28ff4, type: 3}
+    - {fileID: 935533184377780483, guid: ee40be7dba7d7be40ba4a762f7147744, type: 3}
+    bgColor: {r: 0.40784314, g: 0.45882353, b: 0.50980395, a: 0}
+  cloudsPar: {fileID: 5357008781324800967}
+  backCloudsPar: {fileID: 7711838711996610373}
+  farBackCloudsPar: {fileID: 5676225098837422035}
+--- !u!1 &4386125507245209586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7711838711996610373}
+  - component: {fileID: 4488260708433120322}
+  m_Layer: 0
+  m_Name: BackClouds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7711838711996610373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386125507245209586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3695163636625530508}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4488260708433120322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4386125507245209586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b14bdfc5bca724596418277907dd03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parralaxEffect: 0.4
+  cam: {fileID: 0}
+--- !u!1 &7099240341785293793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5676225098837422035}
+  - component: {fileID: 1888531841}
+  m_Layer: 0
+  m_Name: FarBackClouds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5676225098837422035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7099240341785293793}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3695163636625530508}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1888531841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7099240341785293793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64b14bdfc5bca724596418277907dd03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parralaxEffect: 0.7
+  cam: {fileID: 0}
