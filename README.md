@@ -4,6 +4,8 @@ Developed a 2D plane shooter with bullet hell mechanics over 7 months during hig
 
 I was responsible for writing the code and creating the art, with additional contributions from freelancers for some art assets and music. The game was designed for mobile devices.
 
+[Video Demo](https://www.youtube.com/watch?v=GgnA00UTYu0&ab_channel=SerbanDeaconu)
+
 ## Key Features
 
 - <b>Bullet Hell Gameplay:</b> Intense, fast-paced shooting with complex bullet patterns. <br>
