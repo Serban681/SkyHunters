@@ -1,6 +1,6 @@
 # SkyHunters
 
-Developed a 2D plane shooter with bullet hell mechanics over 7 months during high school. The game features a roguelike-style mode, where each run is randomly generated but the difficulty remains consistent. Players try to destroy as many enemy planes as possibleand can unlock new planes by paying with coins collected during gameplay or by opening loot boxes.
+Developed a 2D plane shooter with bullet hell mechanics over 7 months during high school. The game features a roguelike-style mode, where each run is randomly generated but the difficulty remains consistent. Players try to destroy as many enemy planes as possible and can unlock new planes by paying with coins collected during gameplay or by opening loot boxes.
 
 I was responsible for writing the code and creating the art, with additional contributions from freelancers for some art assets and music. The game was designed for mobile devices.
 
