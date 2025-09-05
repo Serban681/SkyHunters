@@ -15,7 +15,7 @@ I was responsible for writing the code and creating the art, with additional con
 
 ## Learning & Outcomes
 
-- Planned and executed a multi-month project from concept to completion.
+- Planned and executed a multi-month project from concept to mid-stage, making the decision to discontinue after evaluating its viability.
 - Gained experience in art creation and coordinating freelance contributions.
 - Learned the importance of structuring code for maintainability and how difficult it can be to modify a system once it is built.
 - Developed an understanding of the importance of user engagement and iterative design.
