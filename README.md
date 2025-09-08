@@ -23,5 +23,5 @@ I was responsible for writing the code and creating the art, with additional con
 ## Suggested Improvements
 
 - **Platform redesign for multiplayer:** Adapt the game for console and PC to better support local (couch) multiplayer and multiplayer-friendly controls.  
-- **Multiplayer modes:** Include co-op, versus, or online multiplayer modes.  
+- **Multiplayer modes:** Include co-op, versus or online multiplayer modes.  
 - **Additional game modes:** Introduce new gameplay modes to increase variety and replayability.
